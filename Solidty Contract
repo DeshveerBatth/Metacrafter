@@ -20,9 +20,9 @@ contract MyToken {
 
     // public variables here
     /*struct Token{
-        string token_name;
-        string token_abbrv;
-        uint256 total_supply;
+        string token_name = "Hello";
+        string token_abbrv = "H";
+        uint256 total_supply = 0;
     }
     Token[] public Token;
     function create_Token(string memory name, string memory abbrv, uint256 supply) public {
